@@ -8,6 +8,7 @@ int main() {
     int n, k, v[N_MAX];
     
     cin >> n;
+    
     memset(v, 0, sizeof v);
     
     for(int i = 0; i < n - 1; ++i) {
