@@ -14,7 +14,7 @@ bool colide(int * a1, int * a2, int * b1, int * b2) {
     w2 = abs(b2[X] - b1[X]);
     h2 = abs(b2[Y] - b1[Y]);
     
-    return abs(b2[Y] - a1[Y]) <= (h1+h2) && abs(b2[X] - a1[X]) <= (w1 + w2); 
+    return abs(b2[Y] - a1[Y]) <= (h1 + h2) && abs(b2[X] - a1[X]) <= (w1 + w2); 
 }
 
 int main() {
